@@ -17,7 +17,7 @@ app.use(express.json())
 app.use(cookieParser())
 
 app.use('/api/auth', userRoutes)
-app.use('/api/message', messageRoutes)
+app.use('/api/messages', messageRoutes)
 app.use('/api/users', usersRoutes)
 
 
